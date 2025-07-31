@@ -16,6 +16,7 @@ public class LoginTask implements Task {
         this.password = password;
     }
 
+    //Pruebas de login con credenciales
     public static LoginTask withCredentials(String username, String password) {
         return Tasks.instrumented(LoginTask.class, username, password);
     }
