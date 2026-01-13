@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "proyectos_automatizacion",
+=======
+  "name": "instalacion",
+>>>>>>> c804799 (Esta es la tarea Final)
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/felixdesarrollador36/proyectos_automatizacion.git"
@@ -18,5 +23,14 @@
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.6"
+=======
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.2"
+>>>>>>> c804799 (Esta es la tarea Final)
   }
 }

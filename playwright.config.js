@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+<<<<<<< HEAD
 
 /**
  * Read environment variables from file.
@@ -34,11 +35,33 @@ export default defineConfig({
   },
 
   /* Configure projects for major browsers */
+=======
+ 
+export default defineConfig({
+  testDir: './tests',
+  fullyParallel: true,
+  forbidOnly: !!process.env.CI,
+  retries: process.env.CI ? 2 : 0,
+  workers: process.env.CI ? 1 : undefined,
+  reporter: 'html',
+ 
+  use: {
+    /* ⏱️ Espera de 1 segundos entre cada acción */
+    launchOptions: {
+      slowMo: 1000, // 1 segundos
+    },
+ 
+    /* Graba la traza cuando un test falla */
+    trace: 'on-first-retry',
+  },
+ 
+>>>>>>> c804799 (Esta es la tarea Final)
   projects: [
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
+<<<<<<< HEAD
 
     {
       name: 'firefox',
@@ -79,3 +102,7 @@ export default defineConfig({
   // },
 });
 
+=======
+  ],
+});
+>>>>>>> c804799 (Esta es la tarea Final)
