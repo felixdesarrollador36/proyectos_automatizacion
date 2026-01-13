@@ -12,7 +12,7 @@ test('Completar campos obligatorios', async ({ page }) =>{
     //Dar click al boton Submit
     await page.click('button[type="submit"]');
 
-    //Dar click en el campo PIN
+    //Dar click en el campo PIM
     await page.getByRole('link',{name: 'PIM'}).click();
 
     //Dar click en Add
@@ -26,7 +26,7 @@ test('Completar campos obligatorios', async ({ page }) =>{
     await page.locator('.oxd-switch-wrapper').click();
 
     // Siempre cambiar el nombre de Username para poder entrar
-    await page.locator('input[autocomplete="off"]').first().fill('6516516asdsad59999999997ss899fgdfg9ff');
+    await page.locator('input[autocomplete="off"]').first().fill('65165www9999dfdsgdfg9ff');
 
     // Activar la opcion Enable
     await page.getByLabel('Enabled').check();
