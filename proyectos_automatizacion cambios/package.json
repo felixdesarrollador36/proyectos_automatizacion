@@ -1,0 +1,22 @@
+{
+  "name": "proyectos_automatizacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixdesarrollador36/proyectos_automatizacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixdesarrollador36/proyectos_automatizacion/issues"
+  },
+  "homepage": "https://github.com/felixdesarrollador36/proyectos_automatizacion#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.6"
+  }
+}
